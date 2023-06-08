@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.seat-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.seat {
+  width: 70px;
+  height: 25px;
+  margin: 5px;
+  border: none;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.available-seat {
+  background-color: green !important;
+  color: white;
+}
+
+.unavailable {
+  background-color: red;
+  color: white;
+  cursor: not-allowed;
+}
+
+.selected {
+  background-color: blue;
+  color: white;
+}
+
+.reserved {
+  background-color: orange;
+  color: black;
+}
+
+.actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.book-button {
+  padding: 0.1rem 1rem;
+  font-size: 16px;
+}
+
+.selected-seats,
+.reserved-seats {
+  margin-top: 2rem;
+}
+
+.selected-seats ul,
+.reserved-seats ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-seats li,
+.reserved-seats li {
+  margin-bottom: 0.5rem;
+}
