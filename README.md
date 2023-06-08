@@ -22,5 +22,14 @@ This project is a Train Seat Booking System that allows users to select and book
 - Front-end: HTML, CSS, ReactJS
 - Back-end: Firestore (Firebase Firestore)
 
+##DBSchema
+
+{
+  "reservedSeats": {
+    "$documentId": {
+      "reservedSeat": "number"
+    }
+  }
+}
 
  Visit the Train Seat Booking System at [https://trainseatbooking-69d90.web.app/](https://trainseatbooking-69d90.web.app/).
